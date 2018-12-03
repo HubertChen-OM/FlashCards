@@ -26,7 +26,7 @@ public class Application {
 		MultipartConfigFactory factory = new MultipartConfigFactory();
 		
 		factory.setMaxFileSize("1Mb");
-		factory.setMaxRequestSize("1Mb");
+		factory.setMaxRequestSize("5Mb");
 		
 		return factory.createMultipartConfig();
 	}	
