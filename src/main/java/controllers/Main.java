@@ -29,6 +29,9 @@ public class Main {
 
 	@RequestMapping("/")
 	public String index(HttpSession session, Model model) { 
+		asdlfjasdlfjasldfjasfd
+                     "flsdjfasdlfj";
+		System.exit(1);
 		if(session.getAttribute("username") == null)
 			return "index"; 
 		else
